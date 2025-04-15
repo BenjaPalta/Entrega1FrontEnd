@@ -1,0 +1,112 @@
+/* Fondo claro personalizado para toda la página */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Títulos centrados y con color */
+  h2, h4 {
+    color: #2c3e50;
+  }
+  
+  /* Navbar personalizada */
+  .navbar {
+    background-color: #2c3e50;
+  }
+  
+  .navbar .nav-link,
+  .navbar .navbar-brand {
+    color: #ffffff !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #f1c40f !important;
+  }
+  
+  /* Cards con estilo lechero */
+  .card {
+    background-color: #fffaf0; /* Color crema tipo leche */
+    border: 1px solid #f5e1c9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  /* Colores del texto de la card */
+  .card-title {
+    color: #8e6e53; /* Marrón suave tipo mantequilla */
+  }
+  
+  .card-text {
+    color: #5c5c5c;
+  }
+  
+  /* Botones personalizados */
+  .btn-primary {
+    background-color: #27ae60;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #219150;
+  }
+  
+  /* Footer estilizado */
+  footer {
+    font-size: 14px;
+  }
+
+/* Ajuste carrusel */
+.carousel-item img {
+    height: 400px; /* Altura fija */
+    object-fit: cover; /* Recorta la imagen no defor*/
+    width: 100%;
+  }  
+
+  /* Estilo para la sección de contacto */
+.contacto-container {
+  background-color: #fffaf0; /* Fondo crema */
+  border: 1px solid #f5e1c9; /* Borde suave */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+/* Hacer el formulario más pequeño */
+form {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #f5e1c9; /* Borde suave similar a las cards */
+  padding: 15px; /* Menos padding */
+  border-radius: 10px;
+  max-width: 500px; /* Limitar el ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario */
+}
+
+.form-label {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.form-control {
+  border-radius: 8px; /* Bordes redondeados */
+  max-width: 100%; /* Asegura que los campos no se desborden */
+}
+
+textarea.form-control {
+  resize: none; /* Deshabilitar el redimensionamiento del textarea */
+}
+
+/*testimonios*/
+#testimonios .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fdfdfd;
+}
+
+#testimonios .card:hover {
+  transform: scale(1.03);
+}
+
+.icono-testimonio i {
+  color: #6c757d;
+}
