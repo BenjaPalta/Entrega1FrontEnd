@@ -25,7 +25,7 @@ body {
   
   /* Cards con estilo lechero */
   .card {
-    background-color: #fffaf0; /* Color crema tipo leche */
+    background-color: #fffaf0; /*crema*/
     border: 1px solid #f5e1c9;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -33,7 +33,7 @@ body {
   
   /* Colores del texto de la card */
   .card-title {
-    color: #8e6e53; /* Marrón suave tipo mantequilla */
+    color: #8e6e53; /*color mantequilla */
   }
   
   .card-text {
@@ -58,7 +58,7 @@ body {
 /* Ajuste carrusel */
 .carousel-item img {
     height: 400px; /* Altura fija */
-    object-fit: cover; /* Recorta la imagen no defor*/
+    object-fit: cover; /*Recorta img sin def*/
     width: 100%;
   }  
 
@@ -72,7 +72,7 @@ body {
 }
 /* Hacer el formulario más pequeño */
 form {
-  background-color: #ffffff; /* Fondo blanco */
+  background-color: #ffffff; /*Fondo blanco*/
   border: 1px solid #f5e1c9; /* Borde suave similar a las cards */
   padding: 15px; /* Menos padding */
   border-radius: 10px;
